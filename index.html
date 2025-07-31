@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客 - 分享技术与生活</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>我的博客</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#articles" class="nav-link">文章</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">关于</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">联系</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要内容区域 -->
+    <main class="main-content">
+        <!-- 头部横幅 -->
+        <header class="hero-section">
+            <div class="hero-content">
+                <h1>欢迎来到我的博客</h1>
+                <p>分享技术见解、生活感悟和有趣的故事</p>
+                <button class="cta-button">开始阅读</button>
+            </div>
+        </header>
+
+        <!-- 文章内容区域 -->
+        <div class="content-wrapper">
+            <!-- 主文章区域 -->
+            <section class="articles-section">
+                <h2 class="section-title">最新文章</h2>
+                
+                <!-- 文章卡片 -->
+                <article class="article-card">
+                    <div class="article-image">
+                        <img src="https://picsum.photos/400/250?random=1" alt="文章配图">
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-category">技术</span>
+                            <span class="article-date">2024年1月15日</span>
+                        </div>
+                        <h3 class="article-title">现代Web开发的最佳实践</h3>
+                        <p class="article-excerpt">
+                            在当今快速发展的Web开发领域，掌握最佳实践对于构建高质量的应用至关重要。
+                            本文将深入探讨现代Web开发中的关键技术和策略...
+                        </p>
+                        <div class="article-footer">
+                            <a href="#" class="read-more">阅读更多</a>
+                            <div class="article-stats">
+                                <span><i class="fas fa-eye"></i> 1.2k</span>
+                                <span><i class="fas fa-heart"></i> 45</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-image">
+                        <img src="https://picsum.photos/400/250?random=2" alt="文章配图">
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-category">生活</span>
+                            <span class="article-date">2024年1月12日</span>
+                        </div>
+                        <h3 class="article-title">如何提高工作效率的10个技巧</h3>
+                        <p class="article-excerpt">
+                            在信息爆炸的时代，如何有效地管理时间和提高工作效率成为了每个人都需要面对的挑战。
+                            本文将分享一些实用的技巧和方法...
+                        </p>
+                        <div class="article-footer">
+                            <a href="#" class="read-more">阅读更多</a>
+                            <div class="article-stats">
+                                <span><i class="fas fa-eye"></i> 856</span>
+                                <span><i class="fas fa-heart"></i> 32</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-image">
+                        <img src="https://picsum.photos/400/250?random=3" alt="文章配图">
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span class="article-category">设计</span>
+                            <span class="article-date">2024年1月10日</span>
+                        </div>
+                        <h3 class="article-title">UI/UX设计中的心理学原理</h3>
+                        <p class="article-excerpt">
+                            优秀的用户界面设计不仅仅是视觉上的美观，更重要的是理解用户的心理需求和行为模式。
+                            本文将探讨设计中的心理学原理...
+                        </p>
+                        <div class="article-footer">
+                            <a href="#" class="read-more">阅读更多</a>
+                            <div class="article-stats">
+                                <span><i class="fas fa-eye"></i> 1.5k</span>
+                                <span><i class="fas fa-heart"></i> 67</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 分页 -->
+                <div class="pagination">
+                    <a href="#" class="page-link active">1</a>
+                    <a href="#" class="page-link">2</a>
+                    <a href="#" class="page-link">3</a>
+                    <a href="#" class="page-link">下一页</a>
+                </div>
+            </section>
+
+            <!-- 侧边栏 -->
+            <aside class="sidebar">
+                <!-- 作者信息 -->
+                <div class="widget author-widget">
+                    <div class="author-avatar">
+                        <img src="https://picsum.photos/100/100?random=10" alt="作者头像">
+                    </div>
+                    <h3 class="author-name">博主小王</h3>
+                    <p class="author-bio">热爱技术，喜欢分享。专注于Web开发和用户体验设计。</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <!-- 分类 -->
+                <div class="widget categories-widget">
+                    <h3 class="widget-title">分类</h3>
+                    <ul class="categories-list">
+                        <li><a href="#">技术 (15)</a></li>
+                        <li><a href="#">生活 (8)</a></li>
+                        <li><a href="#">设计 (12)</a></li>
+                        <li><a href="#">随笔 (6)</a></li>
+                        <li><a href="#">教程 (20)</a></li>
+                    </ul>
+                </div>
+
+                <!-- 热门文章 -->
+                <div class="widget popular-widget">
+                    <h3 class="widget-title">热门文章</h3>
+                    <div class="popular-articles">
+                        <div class="popular-article">
+                            <img src="https://picsum.photos/60/60?random=4" alt="热门文章">
+                            <div class="popular-article-content">
+                                <h4>JavaScript异步编程详解</h4>
+                                <span class="views">2.3k 阅读</span>
+                            </div>
+                        </div>
+                        <div class="popular-article">
+                            <img src="https://picsum.photos/60/60?random=5" alt="热门文章">
+                            <div class="popular-article-content">
+                                <h4>CSS Grid布局完全指南</h4>
+                                <span class="views">1.8k 阅读</span>
+                            </div>
+                        </div>
+                        <div class="popular-article">
+                            <img src="https://picsum.photos/60/60?random=6" alt="热门文章">
+                            <div class="popular-article-content">
+                                <h4>React Hooks最佳实践</h4>
+                                <span class="views">1.5k 阅读</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 标签云 -->
+                <div class="widget tags-widget">
+                    <h3 class="widget-title">标签</h3>
+                    <div class="tags-cloud">
+                        <a href="#" class="tag">JavaScript</a>
+                        <a href="#" class="tag">CSS</a>
+                        <a href="#" class="tag">React</a>
+                        <a href="#" class="tag">Vue</a>
+                        <a href="#" class="tag">Node.js</a>
+                        <a href="#" class="tag">Python</a>
+                        <a href="#" class="tag">设计</a>
+                        <a href="#" class="tag">效率</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>关于博客</h3>
+                <p>这是一个分享技术见解和生活感悟的个人博客。希望能通过文字与大家交流，共同成长。</p>
+            </div>
+            <div class="footer-section">
+                <h3>快速链接</h3>
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">文章</a></li>
+                    <li><a href="#">关于</a></li>
+                    <li><a href="#">联系</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>联系方式</h3>
+                <p><i class="fas fa-envelope"></i> contact@example.com</p>
+                <p><i class="fas fa-phone"></i> +86 123 4567 8900</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 我的博客. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
